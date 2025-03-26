@@ -1,0 +1,105 @@
+<section id="carta" class="p-4">
+    <h2 class="text-3xl font-bold mb-6 text-center">Platos a la Carta</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Caldo de Gallina -->
+        <div class="card-bg rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300 animate-slide-up">
+            <img src="assets/carta/caldogallina.jpg" alt="Caldo de Gallina" class="w-full h-48 object-cover">
+            <div class="p-4">
+                <h3 class="text-xl font-semibold">🍲 Caldo de Gallina</h3>
+                <p class="price-text font-bold mt-2">S/ 15.00</p>
+                <p class="text-sm mt-1">Un clásico reconfortante, con su caldito dorado...</p>
+                <button class="mt-4 button-bg text-white px-4 py-2 rounded" onclick="openModal('Caldo de Gallina', 'Un clásico reconfortante, con su caldito dorado y espeso, lleno de sabor casero, servido con su huevo duro y papita amarilla. ¡Un abrazo para el alma en cada cucharada!', 'S/ 15.00')">Ver más</button>
+            </div>
+        </div>
+        <!-- Caldo de Pata de Res -->
+        <div class="card-bg rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300 animate-slide-up">
+            <img src="assets/carta/caldopata.jpg" alt="Caldo de Pata de Res" class="w-full h-48 object-cover">
+            <div class="p-4">
+                <h3 class="text-xl font-semibold">🍲 Caldo de Pata de Res</h3>
+                <p class="price-text font-bold mt-2">S/ 18.00</p>
+                <p class="text-sm mt-1">Potente y nutritivo, con un caldito espeso...</p>
+                <button class="mt-4 button-bg text-white px-4 py-2 rounded" onclick="openModal('Caldo de Pata de Res', 'Potente y nutritivo, con un caldito espeso que acaricia el paladar, perfecto para recargar energías. ¡Con su toquecito de hierbabuena, es simplemente irresistible!', 'S/ 18.00')">Ver más</button>
+            </div>
+        </div>
+        <!-- Caldo de Carnero -->
+        <div class="card-bg rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300 animate-slide-up">
+            <img src="assets/carta/caldocarnero.jpg" alt="Caldo de Carnero" class="w-full h-48 object-cover">
+            <div class="p-4">
+                <h3 class="text-xl font-semibold">🍲 Caldo de Carnero</h3>
+                <p class="price-text font-bold mt-2">S/ 20.00</p>
+                <p class="text-sm mt-1">Un elixir lleno de fuerza, con carne tierna...</p>
+                <button class="mt-4 button-bg text-white px-4 py-2 rounded" onclick="openModal('Caldo de Carnero', 'Un elixir lleno de fuerza, con carne tierna y un caldito aromático que te envuelve en su calidez. ¡Ideal para reponerse y seguir con todo!', 'S/ 20.00')">Ver más</button>
+            </div>
+        </div>
+        <!-- Pato -->
+        <div class="card-bg rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300 animate-slide-up">
+            <img src="assets/carta/arrozpato.jpg" alt="Pato" class="w-full h-48 object-cover">
+            <div class="p-4">
+                <h3 class="text-xl font-semibold">🍗 Pato</h3>
+                <p class="price-text font-bold mt-2">S/ 25.00</p>
+                <p class="text-sm mt-1">Jugoso y lleno de sabor, cocido a fuego lento...</p>
+                <button class="mt-4 button-bg text-white px-4 py-2 rounded" onclick="openModal('Pato', 'Jugoso y lleno de sabor, cocido a fuego lento con su aderezo de especias y chicha de jora. ¡Un manjar para los amantes de la buena cocina norteña!', 'S/ 25.00')">Ver más</button>
+            </div>
+        </div>
+        <!-- Cabrito -->
+        <div class="card-bg rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300 animate-slide-up">
+            <img src="assets/carta/arrozcabrito.jpg" alt="Cabrito" class="w-full h-48 object-cover">
+            <div class="p-4">
+                <h3 class="text-xl font-semibold">🍖 Cabrito</h3>
+                <p class="price-text font-bold mt-2">S/ 25.00</p>
+                <p class="text-sm mt-1">Tierno, jugoso y cocido con todo el amor...</p>
+                <button class="mt-4 button-bg text-white px-4 py-2 rounded" onclick="openModal('Cabrito', 'Tierno, jugoso y cocido con todo el amor del fogón tradicional. Acompañado de frejolitos y arroz graneadito, ¡un plato que enamora el corazón y el paladar!', 'S/ 25.00')">Ver más</button>
+            </div>
+        </div>
+        <!-- Cuy Guisado/Frito -->
+        <div class="card-bg rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300 animate-slide-up">
+            <img src="assets/carta/cuy.jpg" alt="Cuy Guisado/Frito" class="w-full h-48 object-cover">
+            <div class="p-4">
+                <h3 class="text-xl font-semibold">🐹 Cuy Guisado/Frito</h3>
+                <p class="price-text font-bold mt-2">S/ 30.00</p>
+                <p class="text-sm mt-1">Crujiente por fuera, suavecita la carne...</p>
+                <button class="mt-4 button-bg text-white px-4 py-2 rounded" onclick="openModal('Cuy Guisado/Frito', 'Crujiente por fuera, suavecita la carne por dentro… ¡un placer de los dioses andinos! Acompañado de papas doradas y sarsa criolla, ¡te dejará chupándote los dedos!', 'S/ 30.00')">Ver más</button>
+            </div>
+        </div>
+        <!-- Ceviche Pesca del Día -->
+        <div class="card-bg rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300 animate-slide-up">
+            <img src="assets/carta/ceviche.jpg" alt="Ceviche Pesca del Día" class="w-full h-48 object-cover">
+            <div class="p-4">
+                <h3 class="text-xl font-semibold">🐟 Ceviche Pesca del Día</h3>
+                <p class="price-text font-bold mt-2">S/ 25.00</p>
+                <p class="text-sm mt-1">Frescura y explosión de sabor en cada bocado...</p>
+                <button class="mt-4 button-bg text-white px-4 py-2 rounded" onclick="openModal('Ceviche Pesca del Día', 'Frescura y explosión de sabor en cada bocado. Pescado del día en su punto exacto de cocción con el jugo de limón, cebolla crocante y su canchita doradita. ¡Un clásico que nunca falla!', 'S/ 25.00')">Ver más</button>
+            </div>
+        </div>
+        <!-- Chicharrón Pesca del Día -->
+        <div class="card-bg rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300 animate-slide-up">
+            <img src="assets/carta/chicharronpescado.jpg" alt="Chicharrón Pesca del Día" class="w-full h-48 object-cover">
+            <div class="p-4">
+                <h3 class="text-xl font-semibold">🐟 Chicharrón Pesca del Día</h3>
+                <p class="price-text font-bold mt-2">S/ 25.00</p>
+                <p class="text-sm mt-1">Filetes de pescado bien doraditos y crocantes...</p>
+                <button class="mt-4 button-bg text-white px-4 py-2 rounded" onclick="openModal('Chicharrón Pesca del Día', 'Filetes de pescado bien doraditos y crocantes, acompañados de yuca frita y una salsita criolla que hará que no pares de comer. ¡Amor a primera mordida!', 'S/ 25.00')">Ver más</button>
+            </div>
+        </div>
+        <!-- Sudado Pesca del Día -->
+        <div class="card-bg rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300 animate-slide-up">
+            <img src="assets/carta/sudadopescado.jpg" alt="Sudado Pesca del Día" class="w-full h-48 object-cover">
+            <div class="p-4">
+                <h3 class="text-xl font-semibold">🐟 Sudado Pesca del Día</h3>
+                <p class="price-text font-bold mt-2">S/ 25.00</p>
+                <p class="text-sm mt-1">Pescado fresco nadando en un caldito lleno...</p>
+                <button class="mt-4 button-bg text-white px-4 py-2 rounded" onclick="openModal('Sudado Pesca del Día', 'Pescado fresco nadando en un caldito lleno de ají amarillo, tomate y especias, con ese toque casero que reconforta el alma. ¡Para los que aman los sabores de mar!', 'S/ 25.00')">Ver más</button>
+            </div>
+        </div>
+        <!-- Pescado Chita -->
+        <div class="card-bg rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300 animate-slide-up">
+            <img src="assets/carta/chitafrita.jpg" alt="Pescado Chita" class="w-full h-48 object-cover">
+            <div class="p-4">
+                <h3 class="text-xl font-semibold">🐟 Pescado Chita</h3>
+                <p class="price-text font-bold mt-2">S/ 35.00</p>
+                <p class="text-sm mt-1">Enterito y doradito, con esa piel crujiente...</p>
+                <button class="mt-4 button-bg text-white px-4 py-2 rounded" onclick="openModal('Pescado Chita', 'Enterito y doradito, con esa piel crujiente y carne jugosa que se deshace en la boca. Acompañado con arroz, yuca y ensalada fresca. ¡Sabor marino en su máxima expresión!', 'S/ 35.00')">Ver más</button>
+            </div>
+        </div>
+    </div>
+</section>
